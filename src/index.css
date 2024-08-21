@@ -1,0 +1,12 @@
+/*IMPORT GLOBALES */
+
+@import './styles/reset.css';
+@import './styles/shared.css';
+
+
+/*IMPORT DE COMPONENTES*/
+
+@import './components/Navbar/styles.css';
+@import './components/CartWidget/styles.css';
+@import './components/Pill/styles.css';
+

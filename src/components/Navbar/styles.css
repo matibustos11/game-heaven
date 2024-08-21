@@ -1,0 +1,38 @@
+.header {
+    background-color: #2a2a2a;
+    padding: 40px 0;
+    max-height: 300px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.navbar_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.navbar_item {
+    padding: .8em;
+    transition: all .3s linear;
+    cursor: pointer;
+
+}
+
+.navbar_item :hover {
+    background-color: snow;
+    color: #2a2a2a;
+    border-radius: 4px;
+    
+}
+
+.navbar_link { 
+    font-size: 1.6em;
+    line-height: 1;
+}

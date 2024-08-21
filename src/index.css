@@ -9,4 +9,5 @@
 @import './components/Navbar/styles.css';
 @import './components/CartWidget/styles.css';
 @import './components/Pill/styles.css';
+@import './components/ItemListContainer/styles.css'
 

@@ -4,10 +4,16 @@
 @import './styles/shared.css';
 
 
+/*IMPORT CONTAINERS*/
+@import './containers/Header/styles.css';
+@import './containers/ItemListContainer/styles.css';
+
 /*IMPORT DE COMPONENTES*/
 
-@import './components/Navbar/styles.css';
+@import './components/LinkButton/styles.css';
 @import './components/CartWidget/styles.css';
 @import './components/Pill/styles.css';
-@import './components/ItemListContainer/styles.css'
+@import './components/Item/styles.css';
+@import './components/ItemList/styles.css';
+
 

@@ -1,13 +1,15 @@
 import './App.css'
-import Navbar from './components/Navbar/Navbar';
+import BaseLayOut from './layout/BaseLayout';
+import ItemList from './components/ItemList/ItemList';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 
 function App() {
  
   return (
     <>
-      <Navbar/>
-      <ItemListContainer greeting={'GAME HEAVEN - LEVEL UP YOUR GAME'} />
+      <BaseLayOut>
+      <ItemList />
+      </BaseLayOut>
     </>
   )
 }

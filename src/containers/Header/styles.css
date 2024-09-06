@@ -1,7 +1,8 @@
 .header {
     background-color: #2a2a2a;
-    padding: 40px 0;
-    max-height: 300px;
+    padding: 10px 0;
+    height: 160px;
+    margin-bottom: 10px;
 }
 
 .navbar {
@@ -22,6 +23,7 @@
     padding: .8em;
     transition: all .3s linear;
     cursor: pointer;
+    color: white;
 
 }
 
@@ -32,7 +34,8 @@
     
 }
 
-.navbar_link { 
-    font-size: 1.6em;
-    line-height: 1;
+.navbar_img {
+    width: 150px;
+    height: 150px;
 }
+

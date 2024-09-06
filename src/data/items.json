@@ -1,0 +1,137 @@
+[
+    {
+        "id": 1,
+        "category": "PlayStation",
+        "title": "God of War - Ragnarok",
+        "description": "Juego de PlayStation 5 God of War - Ragnarok",
+        "img" : {
+            "front": "/PlayStation/gow-ragnarok-front.webp",
+            "back": "/PlayStation/gow-ragnarok-back.webp"
+        },
+        "price": 159.000,
+        "dues": 3,
+        "stock": 10,
+        "sells": 0,
+        "tag": "NUEVO"
+    },
+    {
+        "id": 2,
+        "category": "PlayStation",
+        "title": "Final Fantasy XVI",
+        "description": "Juego de PlayStation 5 Final Fantasy XVI",
+        "img" : {
+            "front": "/PlayStation/ffxvi-front.jpg",
+            "back": "/PlayStation/ffxvi-back.jpg"
+        },
+        "price": 159.000,
+        "dues": 3,
+        "stock": 10,
+        "sells": 0,
+        "tag": "NUEVO"
+    },
+    {
+        "id": 3,
+        "category": "PlayStation",
+        "title": "EA Sports FC 24",
+        "description": "Juego de PlayStation 5 EA Sports FC 24",
+        "img" : {
+            "front": "/PlayStation/fifa24-front.webp",
+            "back": "/PlayStation/fifa24-back.jpg"
+        },
+        "price": 159.000,
+        "dues": 3,
+        "stock": 10,
+        "sells": 0,
+        "tag": "NUEVO"
+    },
+    {
+        "id": 4,
+        "category": "Xbox Series X",
+        "title": "Diablo IV",
+        "description": "Juego de Xbox Series X Diablo IV",
+        "img" : {
+            "front": "/Xbox/diablo4-front.webp",
+            "back": "/Xbox/diablo4-back.jpg"
+        },
+        "price": 159.000,
+        "dues": 3,
+        "stock": 10,
+        "sells": 0,
+        "tag": "NUEVO"
+    },
+    {
+        "id": 5,
+        "category": "Xbox Series X",
+        "title": "Call Of Duty 6",
+        "description": "Juego de Xbox Series X Call of Duty Black Ops 6",
+        "img" : {
+            "front": "/Xbox/cod6-front.avif",
+            "back": "/Xbox/cod6-back.jpg"
+        },
+        "price": 159.000,
+        "dues": 3,
+        "stock": 10,
+        "sells": 0,
+        "tag": "NUEVO"
+    },
+    {
+        "id": 6,
+        "category": "Xbox Series X",
+        "title": "Mortal Kombat 1",
+        "description": "Juego de Xbox Series X Mortal Kombat 1",
+        "img" : {
+            "front": "/Xbox/mk1-front.jpg",
+            "back": "/Xbox/mk1-back.jpg"
+        },
+        "price": 159.000,
+        "dues": 3,
+        "stock": 10,
+        "sells": 0,
+        "tag": "NUEVO"
+    },
+    {
+        "id": 7,
+        "category": "Nintendo Switch",
+        "title": "Mario Party Superstars",
+        "description": "Juego de Nintendo Switch Mario Party Superstars",
+        "img" : {
+            "front": "/NintendoSwitch/marioparty-front.jpg",
+            "back": "/NintendoSwitch/marioparty-back.jpg"
+        },
+        "price": 159.000,
+        "dues": 3,
+        "stock": 10,
+        "sells": 0,
+        "tag": "NUEVO"
+    },
+    {
+        "id": 8,
+        "category": "Nintendo Switch",
+        "title": "Pokemon Violet",
+        "description": "Juego de Nintendo Switch Pokemon Violet",
+        "img" : {
+            "front": "/NintendoSwitch/pokemonviolet-front.webp",
+            "back": "/NintendoSwitch/pokemonviolet-back.webp"
+        },
+        "price": 159.000,
+        "dues": 3,
+        "stock": 10,
+        "sells": 0,
+        "tag": "NUEVO"
+    },
+    {
+        "id": 9,
+        "category": "Nintendo Switch",
+        "title": "Hogwarts Legacy",
+        "description": "Juego de Nintendo Switch Hogwarts Legacy",
+        "img" : {
+            "front": "/NintendoSwitch/hogwleg-front.jpg",
+            "back": "/NintendoSwitch/hogwleg-back.jpg"
+        },
+        "price": 159.000,
+        "dues": 3,
+        "stock": 10,
+        "sells": 0,
+        "tag": "NUEVO"
+    }
+]

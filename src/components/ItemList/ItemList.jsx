@@ -15,7 +15,7 @@ const ItemList = ( ) => {
 
     return (
         <section className="items_container container">
-        {items.map(item => <Item {...item} />)}
+        {items.map((item, i) => <Item key={`item-${i}`} {...item} />)}
         </section>
     )
 };

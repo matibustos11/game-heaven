@@ -1,9 +1,10 @@
+import { Link } from "react-router-dom";
 
-const Item = ({ title, img, price, category, dues, href="#", tag }) => {
+const Item = ({ title, img, price, category, dues, id, tag }) => {
 
     return (
         <article className="item">
-            <a href= {href}>
+            <Link to = {`/detalle/${id}`}>
                 <picture className="item_picture">
                     <span className="item_picture-pill"> {tag} </span>
                     <img className="item_picture-img item_picture-img-1" src= {`../src/assets${img.front}`} alt= {`${title} - Frente Caja`} />
@@ -15,7 +16,7 @@ const Item = ({ title, img, price, category, dues, href="#", tag }) => {
                     <p className="item_info-price"> $ {price} .- </p>
                     <p className="item_info-dues"> {dues} CUOTAS SIN INTERES </p>
                 </div>
-            </a>
+            </Link>
         
         </article>
     )

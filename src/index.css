@@ -15,5 +15,7 @@
 @import './components/Pill/styles.css';
 @import './components/Item/styles.css';
 @import './components/ItemList/styles.css';
+@import './components/ItemCounter/styles.css';
+@import './components/ItemDetail/styles.css';
 
 

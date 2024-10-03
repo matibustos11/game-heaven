@@ -1,34 +1,33 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
-const ItemCounter = ({ stock, initial, onAdd}) => {
+const ItemCounter = ({ stock, initial, setQuantity }) => {
+    const [localQuantity, setLocalQuantity] = useState(initial);
 
-    let [quantity, setQuantity] = useState (initial);
+    useEffect(() => {
+        setQuantity(localQuantity); // Actualiza la cantidad en el padre cada vez que cambie localQuantity
+    }, [localQuantity, setQuantity]);
 
-    let increment = () => {
-        if (quantity < stock) {
-            setQuantity (quantity + 1);
+    const increment = () => {
+        if (localQuantity < stock) {
+            setLocalQuantity(localQuantity + 1);
         }
-    }
+    };
 
-    let decrement = () => {
-        if (quantity > 1) {
-            setQuantity (quantity - 1);
+    const decrement = () => {
+        if (localQuantity > 1) {
+            setLocalQuantity(localQuantity - 1);
         }
-    }
+    };
 
     return (
-
         <div className="counter">
             <div className="controls">
                 <button className="button" onClick={decrement}>-</button>
-                <h4 className="number"> {quantity} </h4>
+                <h4 className="number"> {localQuantity} </h4>
                 <button className="button" onClick={increment}>+</button>
             </div>
-            <div>
-                <button className="button" onClick={()=> onAdd(quantity)} disabled= {!stock} >Agregar al Carrito</button>
-            </div>
         </div>
-    )
+    );
 };
 
 export default ItemCounter;

@@ -3,6 +3,8 @@
 @import './styles/reset.css';
 @import './styles/shared.css';
 
+@import './pages/CartView/styles.css';
+
 
 /*IMPORT CONTAINERS*/
 @import './containers/Header/styles.css';
@@ -17,5 +19,6 @@
 @import './components/ItemList/styles.css';
 @import './components/ItemCounter/styles.css';
 @import './components/ItemDetail/styles.css';
+@import './components/ModalForm/styles.css';
 
 

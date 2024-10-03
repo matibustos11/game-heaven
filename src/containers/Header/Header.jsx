@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import logo from '../../assets/gameheaven-logo.jpeg';
 import CartWidget from '../../components/CartWidget/CartWidget';
 import Menu from '../../components/Menu/Menu';
@@ -30,9 +31,9 @@ const Header = () => {
                 </a>
                 <Menu className= "navbar" links = {links}> 
                     <li>
-                        <a href="" className='navbar_link-button'>
+                        <Link to="/cart" className='navbar_link-button'>
                             <CartWidget quantity={0} />
-                        </a>
+                        </Link>
                     </li>
                 </Menu>
 

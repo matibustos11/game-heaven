@@ -1,12 +1,16 @@
+import { useContext } from 'react';
+import { CartContext } from "../../context/CartContext";
 import { Icon } from '@iconify/react';
 import Pill from '../Pill/Pill';
 
-const CartWidget = ({ quantity }) => {
+const CartWidget = () => {
+    const { getTotalItems } = useContext(CartContext);
+    const totalItems = getTotalItems();
 
     return (
         <div className='cart-widget'>
-            <Pill quantity={3} />
             <Icon className='cart-widget-icon' icon="ic:sharp-shopping-cart" />
+            {totalItems > 0 && <Pill>{totalItems}</Pill>}
         </div>
     );
 };

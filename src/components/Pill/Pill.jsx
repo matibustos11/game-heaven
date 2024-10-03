@@ -1,4 +1,9 @@
-
-const Pill = ( { quantity }) => <span className='pill'>{ quantity }</span>;
-
-export default Pill
+const Pill = ({ children }) => {
+    return (
+      <span className="pill">
+        {children}
+      </span>
+    );
+  };
+  
+  export default Pill;
